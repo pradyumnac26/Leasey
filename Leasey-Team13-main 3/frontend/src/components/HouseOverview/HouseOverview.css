@@ -1,0 +1,59 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.house-image {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.carousel {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red;
+}
+
+.listing-address {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.functions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
